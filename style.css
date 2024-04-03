@@ -1,0 +1,575 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: sans-serif;
+background-color: black;
+margin: 0;
+padding: 0;
+}
+.whole_container{
+  width: 100%;
+}
+/* Background Image  */
+.back_img{
+  width: 95vw;
+  margin-left: 37px;
+}
+/* Header Top  */
+.header{
+  position: absolute;
+  top: 0%;
+  display: flex;
+  margin-top: 19px;
+  margin-left: 59px;
+  width: 93vw;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* Left Side Heading Part  */
+.left_header{
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+/* Logo Image  */
+.logo_img{
+  width: 5vw;
+}
+
+
+/* Menu  */
+.menu_list{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  justify-content: space-evenly;
+}
+.menutext{
+  color: white;
+  opacity: 0.6;
+}
+#menulist1{
+  font-weight: 700;
+  opacity: 0.8;
+}
+/* Menu End  */
+/* Left Heading Completed  */
+
+
+/* Right Heading  */
+.user img{
+  width: 25px;
+}
+.right_header{
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* Top text  */
+.Image_text{
+  width: 34vw;
+  height: 22vw;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  margin-top: 354px;
+  margin-left: 89px;
+}
+/* IMAGE AND SHOW  */
+.img1_txt{
+  display: flex;
+  flex-direction: row;
+}
+.show_image img{
+  width: 25px;
+}
+.show{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  word-spacing: 8px;
+  color: white;
+}
+.maid{
+  font-size: 140px;
+  font-weight: bolder;
+  color: white;
+}
+.image_button{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.play_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 2.5vw;
+  width: 6vw;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.info{
+  width: 8vw;
+  margin-left: 27px;
+  height: 2.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #7C8193;
+  opacity: 0.8;
+border-radius: 6px;
+justify-content: space-evenly;
+}
+.symbol{
+  opacity: 1;
+}
+.more_info{
+  opacity: 1;
+  color: white;
+}
+
+/* Top Side over */
+/* See Again Part  */
+.see_again{
+  position: absolute;
+  padding: 20px;
+  margin-top: -110px;
+  margin-left: 30px;
+
+}
+.see_again_text{
+  margin-left: 25px;
+}
+.width_size{
+  width: 260px;
+  height: 145px;
+}
+.text_attach{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.see_again_text{
+  color: white;
+  font-size: 20px;
+}
+.see_again_images{
+  width: 94vw;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+/* Top Ten Started */
+.top_ten{
+  position: absolute;
+  margin-left: 66px;
+  margin-top: 150px;
+}
+.top_ten_text{
+  font-size: 20px;
+  color: white;
+}
+.ten_attach{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+.image{
+  margin-top: 4px;
+}
+.top_ten_images{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width: 93vw;
+  margin-top: 40px;
+  margin-left: -55px;
+}
+.number_width{
+  width: 130px;
+}
+.image_width{
+  width: 130px;
+}
+/* Top Ten Completed  */
+/* Trending Started */
+.trending{
+margin-top: 40px;
+}
+.trending_attach{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 70px;
+}
+.trending_txt{
+  color: white;
+  font-size: 20px;
+}
+.trending_img{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+margin-top: 40px;
+margin-left: 55px;
+}
+.trending_width{
+  width: 260px;
+}
+
+/* Trending End  */
+/* Sci Fi Start */
+.scifi{
+margin-top: 40px;
+}
+.scifi_attach{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 70px;
+}
+.scifi_txt{
+color: white;
+font-size: 20px;
+}
+.scifi_img{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+margin-top: 40px;
+margin-left: 55px;
+}
+.scifi_width{
+  width: 260px;
+}
+/* Sci FI End  */
+.footer{
+  position: absolute;
+  width: 66vw;
+  height: 35vh;
+  margin-top: 20px;
+  margin-left: 260px;
+  opacity:0.4;
+}
+.contact{
+  /* position: absolute; */
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 12vw;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.footer_cont{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 40px;
+  margin-left: 70px;
+
+}
+.footer_1{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.footer_1 ul li{
+  list-style: none;
+}
+
+.footer_2{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.footer_2 ul li{
+  list-style: none;
+}
+
+
+.footer_3{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.footer_3 ul li{
+  list-style: none;
+}
+
+.footer_4{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.footer_4 ul li{
+  list-style: none;
+}
+.right1{
+  margin-left: 14px;
+}
+/* 1300px Set Media Query  */
+@media screen and (max-width:1300px)  {
+  .back_img{
+     width: auto;
+  }
+  .header{
+    width: 100%;
+  }
+  .left_header{
+    width: 40vw;
+    margin-left: -15px;
+  }
+  .menu_list{
+    width: 25vw;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .right_header{
+    margin-right: -115px;
+  width: 20vw;
+  }
+  .see_again_images{
+    gap: 25px;
+  }
+  .trending_img{
+    gap: 25px;
+  }
+  .scifi_img{
+    gap: 25px;
+  }
+  .footer_cont{
+    gap: 10px;
+  }
+}
+/* 1100 px Set  */
+@media screen and (max-width:1100px)  {
+  .back_img{
+     width: auto;
+  }
+  
+
+  .right_header{
+    margin-right: -300px;
+   width: 20vw;
+  }
+  .footer{
+    width: 86vw;
+  }
+  .contact{
+    width: 20vw;
+  }
+  .play_button{
+  width: 7vw;
+  height: 3vh;
+  }
+  .info{
+    width: 10vw;
+    height: 3vh;
+  }
+  .logo_img{
+    width: 7vw;
+  }
+}
+/* 800 px Set  */
+@media screen and (max-width:800px)  {
+.header{
+  width: 100%;
+}
+.left_header{
+  width: 50vw;
+  margin-left: 30px;
+}
+.menu_list{
+  width: 40vw;
+}
+.right_header{
+  margin-right: -575px;
+  width: 30vw;
+}
+.play_button{
+  width: 9vw;
+  height: 4vh;
+}
+.info{
+  width: 12vw;
+  height: 4vh;
+}
+.footer{
+  width: 119vw;
+}
+.contact{
+  width: 23vw;
+}
+.logo_img{
+  width: 10vw;
+}
+}
+/* 600 px Set  */
+@media screen and (max-width:600px)  {
+  .left_header{
+    width: 140vw;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+.logo_img{
+  width: 40vw;
+}
+.menu_list{
+  margin-left: 20px;
+  width: 100vw;
+  font-size: 25px;
+}
+.menutext{
+opacity: 1;
+}
+.right_header{
+  display: none;
+}
+.Image_text{
+  width: 90vw;
+}
+.show_image img{
+  width: 35px;
+}
+.show{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.maid{
+  font-size: 160px;
+}
+.play_button{
+  width: 28vw;
+  height: 7vh;
+  
+}
+.play{
+  font-size: 32px;
+  font-weight: 600;
+}
+.info{
+width: 35vw ;
+height: 7.5vh;
+}
+.more_info{
+  font-size: 25px;
+  font-weight: 500;
+}
+.see_again_text{
+  font-size: 30px;
+}
+.right1{
+  margin-left: 10px;
+}
+.width_size{
+  width: 600px;
+  height: auto;
+}
+.see_again_images{
+  margin-top: 30px;
+  margin-left: 50px;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 100px;
+}
+.top_ten{
+  margin-top: 1150px;
+}
+.top_ten_text{
+  font-size: 30px;
+}
+.number_width{
+  width: 300px;
+  margin-left: 20px;
+}
+.image_width{
+  width: 300px;
+  height: auto;
+}
+.top_ten_images{
+  margin-top: 1100px;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 80px;
+}
+.trending_attach{
+  margin-top: 100px;
+}
+.trending_txt{
+  font-size: 30px;
+}
+.trending_width{
+  width: 600px;
+  height: auto;
+}
+.trending_img  {
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 100px;
+  margin-left: 100px;
+}
+.scifi_attach{
+  margin-top: 80px;
+}
+.scifi_txt{
+  font-size: 30px;
+}
+.scifi_width{
+  width: 600px;
+  height: auto;
+}
+.scifi_img{
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 100px;
+  margin-left: 100px;
+}
+.footer{
+  width: 300vw;
+  margin-left: 40px;
+}
+.contact{
+  width: 40vw;
+}
+.footer_1 ul li{
+  font-size: 30px;
+}
+.footer_2 ul li{
+  font-size: 30px;
+}
+.footer_3 ul li{
+  font-size: 30px;
+}
+.footer_4 ul li{
+  font-size: 30px;
+}
+}
